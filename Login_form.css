@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+body{
+    background: #19123b;
+}
+
+
+
+.card{
+    border: none;
+    border-top: 5px solid rgb(176,106,252);
+    background: #212042;
+    color: #57557a;
+}
+
+#main_div{
+    height: 100vh;
+}
+
+.pink{
+    background: pink;
+}
+
+.green{
+    background: green;
+}
+
+.orange{
+    background: orange;
+}
+
+.blue{
+    background: lightblue;
+}
+.yellow{
+    background: yellow;
+}
+
+.division{
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.division span{
+    font-weight: 1500;
+    font-size: 25px;
+}
+
+.myForm{
+    padding: 0 25px 0 35px;
+}
+
+.form-control
+{
+    border: 1px solid #57557a;
+    border-radius: 2px;
+    background: #212042;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.form-control:focus{
+    border: 1px solid #57557a;
+    border-radius: 2px;
+    background: #212042;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: #fff;
+}
+
+#login_botton:focus{
+border: none;
+cursor: pointer;
+}
+
+.form_check-input{
+    width: 1rem !important;
+    height: 1rem !important;
+    margin-top: 5px;
+}
+
+.btn-primary{
+    background: linear-gradient(135deg,rgba(175,106,252,1)39%, rgba(116,17,255,1) 100%);
+    border: none;
+    border-radius: 50px;
+}
